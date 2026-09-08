@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaa Mohamed | AI Quality Analyst</title>
+    <!-- Google Fonts -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Navbar --> 
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AM<span>.</span></a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" data-key="navHome" class="active">HOME</a></li>
+                <li><a href="#about" data-key="navAbout">ABOUT</a></li>
+                <li><a href="#education" data-key="navEducation">EDUCATION</a></li>
+                <li><a href="#skills" data-key="navSkills">SKILLS</a></li>
+                <li><a href="#experience" data-key="navExperience">EXPERIENCE</a></li>
+                <li><a href="#services" data-key="navServices">SERVICES</a></li>
+                <li><a href="#projects" data-key="navProjects">PROJECTS</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="#testimonials" data-key="navTestimonials">TESTIMONIALS</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <button id="lang-toggle" class="lang-btn">AR</button>
+                <a href="#contact" class="btn btn-primary nav-btn" data-key="navContactBtn">Contact Me</a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h4 class="hero-greeting" data-key="heroGreeting">Hello, I'm</h4>
+                <h1 class="hero-name">Alaa Mohamed</h1>
+                <h3 class="hero-subtitle">AI Quality Analyst</h3>
+                <p class="hero-summary" data-key="heroSummary">
+                    Evaluating personalized AI experiences with analytical rigor, creative prompt design, and precise written feedback.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary" data-key="btnViewProjects">View My Work</a>
+                    <a href="Alaa_Mohamed_Hella_CV_AI_Quality_Analyst.pdf" download="Alaa_Mohamed_Hella_CV_AI_Quality_Analyst.pdf" class="btn btn-outline">
+                        <i data-lucide="download" style="width: 18px; height: 18px; vertical-align: middle; margin-right: 5px;"></i>
+                        <span data-key="btnDownloadCVText">Download CV</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="images/20250213_223536 (1) (1).jpg" alt="Alaa Mohamed, AI Quality Analyst" referrerPolicy="no-referrer">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section reveal">
+        <div class="container">
+            <h2 class="section-title" data-key="aboutTitle">About Me</h2>
+            <div class="about-card reveal-zoom">
+                <div class="about-content">
+                    <p data-key="aboutText1">
+                        I am Alaa, a Computer and Information Technology graduate focused on AI quality evaluation, conversational analysis, and thoughtful user experiences. I enjoy turning ambiguous interactions into clear, evidence-based judgments that help AI systems become more useful and reliable.
+                    </p>
+                    <p data-key="aboutText2">
+                        My background in web development gives me a strong technical foundation for understanding AI products, while my attention to detail helps me review nuanced responses, compare alternatives side by side, and identify unsupported claims, weak inferences, and unnatural personalization.
+                    </p>
+                    <p data-key="aboutText3">
+                        I bring strong written communication, structured reasoning, English proficiency, and independent remote-work habits. I am especially interested in evaluating grounding, integration, helpfulness, naturalness, and the quality of multi-turn prompt interactions, including safety compliance and red-teaming robustness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certificates Section -->
+    <section id="education" class="education section bg-alt reveal">
+        <div class="container">
+            <h2 class="section-title" data-key="navEducation">Education & Certificates</h2>
+            <div class="edu-cert-layout stagger-container">
+                <div class="info-card education-card">
+                    <div class="card-header">
+                        <div class="header-left">
+                            <i data-lucide="graduation-cap" class="icon-accent"></i>
+                            <h3 data-key="eduHeader">Education</h3>
+                        </div>
+                        <span class="date">September 2022 – June 2025</span>
+                    </div>
+                    <div class="card-body">
+                        <h4 data-key="eduDegree">Bachelor of Computer and Information Technology</h4>
+                        <p class="institution"><i data-lucide="school"></i> <span data-key="eduInstitution">Tanta University</span></p>
+                        <div class="details">
+                            <p><strong data-key="eduMajor">Major: Information Technology (IT)</strong></p>
+                            <p><strong data-key="eduProject">Final Project: Crowdfunding Platform in Egypt - Excellent grade</strong></p>
+                            <p><strong data-key="eduGPA">GPA: 3.45 / 4.0 (Very Good) with Honors</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificates-section">
+                    <div class="section-header">
+                        <i data-lucide="award" class="icon-accent"></i>
+                        <h3 data-key="certHeader">Certificates</h3>
+                    </div>
+                    <div class="certificates-grid">
+                        <div class="cert-card reveal">
+                            <div class="cert-header">
+                                <div class="cert-logo-wrapper"><img src="images/1719256361352.jpg" alt="Huawei ICT Academy certificate"></div>
+                                <div class="cert-title-area">
+                                    <h3 data-key="cert1Name">Overview of AI</h3>
+                                    <div class="cert-meta">
+                                        <div class="meta-item"><i data-lucide="building-2"></i><span data-key="cert1Inst">Huawei ICT Academy</span></div>
+                                        <div class="meta-item"><i data-lucide="calendar"></i><span data-key="cert1Date">July 11, 2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cert-tags">
+                                <span class="cert-tag"><i data-lucide="brain-circuit"></i> Artificial Intelligence</span>
+                                <span class="cert-tag"><i data-lucide="graduation-cap"></i> AI Foundations</span>
+                                <span class="cert-tag"><i data-lucide="award"></i> Certificate of Completion</span>
+                            </div>
+                            <div class="cert-footer">
+                                <a href="https://drive.google.com/file/d/1-PyQPA20vRsxLM_mQnzYGTZswmQG_Sqf/view?usp=sharing" target="_blank" class="view-cert-btn">
+                                    <span data-key="btnViewCert">View Certificate</span> <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-card reveal">
+                            <div class="cert-header">
+                                <div class="cert-logo-wrapper"><img src="images/1706316029249.jpg" alt="Oracle AI for You certificate"></div>
+                                <div class="cert-title-area">
+                                    <h3 data-key="cert2Name">AI for You</h3>
+                                    <div class="cert-meta">
+                                        <div class="meta-item"><i data-lucide="building-2"></i><span data-key="cert2Inst">Oracle</span></div>
+                                        <div class="meta-item"><i data-lucide="calendar"></i><span data-key="cert2Date">June 15, 2026</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cert-tags">
+                                <span class="cert-tag"><i data-lucide="cloud"></i> Oracle Learning</span>
+                                <span class="cert-tag"><i data-lucide="brain-circuit"></i> AI Fundamentals</span>
+                                <span class="cert-tag"><i data-lucide="check-circle-2"></i> Completed</span>
+                            </div>
+                            <div class="cert-footer">
+                                <a href="https://drive.google.com/file/d/1_Nb88oKWM1t8d7gIeFVHNQWOa2U1CcMy/view?usp=sharing" target="_blank" class="view-cert-btn">
+                                    <span data-key="btnViewCert">View Certificate</span> <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section bg-alt">
+        <div class="container">
+            <h2 class="section-title" data-key="skillsTitle">My Skills</h2>
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="evaluation"><i data-lucide="scan-search"></i> <span data-key="tabFrontend">AI EVALUATION</span></button>
+                <button class="tab-btn" data-tab="prompting"><i data-lucide="message-square-text"></i> <span data-key="tabBackend">PROMPT DESIGN</span></button>
+                <button class="tab-btn" data-tab="tools"><i data-lucide="wrench"></i> <span data-key="tabTools">TOOLS & METHODS</span></button>
+                <button class="tab-btn" data-tab="soft"><i data-lucide="users"></i> <span data-key="tabSoft">SOFT SKILLS</span></button>
+                <button class="tab-btn" data-tab="languages"><i data-lucide="languages"></i> <span data-key="tabLanguages">LANGUAGES</span></button>
+            </div>
+            <div class="skills-container" id="skills-container"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+    
+    <!-- Experience Section -->
+    <section id="experience" class="experience section reveal">
+        <div class="container">
+            <div class="section-header text-center" style="margin-bottom: 3rem;">
+                <span class="badge" data-key="navExperience">Experience</span>
+                <h2 class="section-title" data-key="expTitle" style="margin-top: 1rem;">My Professional Journey</h2>
+            </div>
+            <div class="coming-soon-card">
+                <div class="coming-soon-icon">
+                    <i data-lucide="briefcase-business"></i>
+                </div>
+                <h3 data-key="experienceComingSoonTitle">Experience Coming Soon!</h3>
+                <p data-key="experienceComingSoonDesc">My professional experience and career milestones will be added here soon. Stay tuned!</p>
+                <div class="animated-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services section reveal">
+        <div class="container">
+            <h2 class="section-title" data-key="servicesTitle">Services</h2>
+            <div class="services-grid stagger-container">
+                <div class="service-card"><i data-lucide="scan-search"></i><h3 data-key="service1Title">AI Response Evaluation</h3><p data-key="service1Desc">Evaluating model outputs for factual grounding, instruction compliance, tone accuracy, and personal context retention across complex multi-turn scenarios.</p><div class="service-tech-list"><span data-key="service1Tag1">Grounding</span><span data-key="service1Tag2">Fact-Checking</span><span data-key="service1Tag3">Context Retention</span></div></div>
+                <div class="service-card"><i data-lucide="message-square-text"></i><h3 data-key="service2Title">Prompt Engineering &amp; Red-Teaming</h3><p data-key="service2Desc">Designing realistic multi-turn prompts and execution edge-cases, including adversarial red-teaming vectors to test model boundary safety.</p><div class="service-tech-list"><span data-key="service2Tag1">Multi-Turn</span><span data-key="service2Tag2">Red-Teaming</span><span data-key="service2Tag3">Jailbreak Testing</span></div></div>
+                <div class="service-card"><i data-lucide="scale"></i><h3 data-key="service3Title">SxS &amp; Rationale Writing</h3><p data-key="service3Desc">Performing comparative Side-by-Side (SxS) response analysis and authoring C1-level defensible rationales using strict error taxonomies.</p><div class="service-tech-list"><span data-key="service3Tag1">SxS Ranking</span><span data-key="service3Tag2">Error Taxonomy</span><span data-key="service3Tag3">C1 Rationales</span></div></div>
+                <div class="service-card"><i data-lucide="shield-check"></i><h3 data-key="service4Title">Safety &amp; Red Teaming</h3><p data-key="service4Desc">Evaluating model robustness against jailbreaks, prompt injections, and over-refusal errors while ensuring policy compliance.</p><div class="service-tech-list"><span data-key="service4Tag1">Red Teaming</span><span data-key="service4Tag2">Jailbreak</span><span data-key="service4Tag3">Safety Policy</span></div></div>
+            </div>
+            <div class="services-footer"><a href="pricing.html" class="btn btn-outline" data-key="btnViewPricing">View Evaluation Profile</a></div>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects section bg-alt reveal">
+    <div class="container">
+        <h2 class="section-title" data-key="projectsTitle">Featured Projects</h2>
+        <div class="projects-grid-centered stagger-container">
+            <div class="project-card-v2">
+                <div class="project-content-v2">
+                    <div class="project-icon-v2"><i data-lucide="flask-conical"></i></div>
+                    <h3 data-key="projectBenchmarkTitle">LLM Personalization and SxS Evaluation Benchmark</h3>
+
+                    <div class="project-details-v2">
+                        <p><strong>Scope:</strong> <span data-key="projectBenchmarkScope">A multi-turn benchmark for evaluating personalized AI experiences</span></p>
+                        <p><strong>Focus:</strong> <span data-key="projectBenchmarkFocus">Context retention, personalization quality, side-by-side response ranking, and error taxonomy analysis</span></p>
+                        <p><strong>Format:</strong> <span data-key="projectBenchmarkFormat">Structured datasets, evaluation reports, and reusable Python scripts</span></p>
+                    </div>
+
+                    <div class="project-tags-v2">
+                        <span>Multi-turn</span>
+                        <span>SxS Evaluation</span>
+                        <span>Error Taxonomy</span>
+                    </div>
+
+                    <div class="project-btns-v2">
+                        <a href="https://github.com/Alaamohamed619/LLM-Personalization-and-SxS-Evaluation-Benchmark" target="_blank" rel="noopener noreferrer" class="btn-project video">
+                            <i data-lucide="github"></i> 
+                            <span data-key="btnCode">View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card-v2">
+                <div class="project-content-v2">
+                    <div class="project-icon-v2"><i data-lucide="shield-check"></i></div>
+                    <h3 data-key="projectSafetyTitle">LLM Safety Red Teaming and Jailbreak Benchmark</h3>
+
+                    <div class="project-details-v2">
+                        <p><strong>Scope:</strong> <span data-key="projectSafetyScope">A comprehensive benchmark for evaluating safe and policy-aligned LLM behavior</span></p>
+                        <p><strong>Focus:</strong> <span data-key="projectSafetyFocus">Red teaming, jailbreak attempts, prompt injection detection, and refusal quality</span></p>
+                        <p><strong>Format:</strong> <span data-key="projectSafetyFormat">Safety datasets, evaluation reports, and reusable analysis scripts</span></p>
+                    </div>
+
+                    <div class="project-tags-v2">
+                        <span>Red Teaming</span>
+                        <span>Jailbreak Testing</span>
+                        <span>Safety Evaluation</span>
+                    </div>
+
+                    <div class="project-btns-v2">
+                        <a href="https://github.com/Alaamohamed619/LLM-Safety-RedTeaming-and-Jailbreak-Benchmark" target="_blank" rel="noopener noreferrer" class="btn-project video">
+                            <i data-lucide="github"></i>
+                            <span data-key="btnCode">View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section id="achievements" class="testimonials section bg-alt reveal">
+    <div class="container">
+        <div class="section-header text-center">
+                <h2 class="section-title">Evaluation Highlights</h2>
+        </div>
+
+        <div class="coming-soon-card">
+            <div class="coming-soon-icon">
+                <i data-lucide="trophy"></i>
+            </div>
+
+            <h3>Building Evidence With Every Review</h3>
+
+            <p>
+                Structured analysis, careful annotations, and clear rationales are the foundation of reliable AI quality work.
+            </p>
+
+            <div class="animated-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section bg-alt reveal">
+        <div class="container">
+            <div class="section-header text-center"><h2 class="section-title" data-key="navTestimonials">Testimonials</h2></div>
+            <div class="coming-soon-card"><div class="coming-soon-icon"><i data-lucide="clock"></i></div><h3 data-key="comingSoonTitle">Coming Soon!</h3><p data-key="comingSoonDesc">Testimonials from my amazing clients are on their way. Stay tuned!</p><div class="animated-dots"><span></span><span></span><span></span></div></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="contact section reveal">
+    <div class="container">
+        <h2 class="section-title" data-key="contactTitle">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-info reveal-left">
+                <div class="info-item-card">
+                    <i class="bi bi-geo-alt"></i>
+                    <p>Cairo,Egypt</p>
+                </div>
+            <a href="mailto:alaamoabdo619@gmail.com" class="info-item-card">
+                    <i class="bi bi-envelope"></i>
+                <p>alaamoabdo619@gmail.com</p>
+                </a>
+                <a href="tel:01025445505" class="info-item-card">
+                    <i class="bi bi-telephone"></i>
+                    <p>01208843477</p>
+                </a>
+               <a href="https://wa.me/201208843477" target="_blank" class="info-item-card whatsapp-card">
+                    <i class="bi bi-whatsapp"></i>
+                    <p>WhatsApp</p>
+                </a>
+                <div class="social-links">
+                    <a href="" target="_blank" class="social-btn">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form reveal-right">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-full" data-key="btnSendMessage">Send Message</button>
+                <p id="form-status" class="form-status"></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+
+            <div class="footer-col reveal-left">
+                <h3 data-key="footerShyTitle">DON'T BE SHY!</h3>
+                <p data-key="footerShyText">
+                    Feel free to get in touch to discuss AI quality evaluation, prompt design,
+                    response analysis, or opportunities to collaborate.
+                </p>
+
+                <!-- Freelance Platforms -->
+                <div class="freelance-links">
+
+                    <a href="https://nafezly.com/my/portfolios" target="_blank" title="Nafezly">
+                        <i class="fas fa-rocket"></i>
+                    </a>
+
+                  <a href="https://mostaql.com/u/mennasoliman59/portfolio" target="_blank" title="Mostaql">
+                        <i class="fas fa-laptop-code"></i>
+                    </a>
+
+                    <a href="https://khamsat.com/user/mennasoliman59" target="_blank" title="Khamsat">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+
+
+                    <a href="https://kafiil.com/service/my-services" target="_blank" title="Kafiil">
+                        <i class="fas fa-user-tie"></i>
+                    </a>
+
+                    
+
+                  
+                </div>
+            </div>
+
+            <div class="footer-col footer-logo-col reveal">
+                <a href="#" class="footer-logo">MS<span>.</span></a>
+            </div>
+
+            <div class="footer-col reveal-right">
+                <h3 data-key="footerWhoTitle">WHO AM I?</h3>
+                    <p data-key="footerWhoText">
+                    I am an AI Quality Analyst specializing in prompt design, AI response evaluation, personalization quality, and clear evidence-based feedback.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright" data-key="footerCopyright">
+                © 2026 . All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <button id="scroll-top" class="scroll-top-btn"><i data-lucide="arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>  
