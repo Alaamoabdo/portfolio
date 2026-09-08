@@ -116,9 +116,7 @@ const translations = {
         contactLocation: "Fayoum, Egypt",
         contactWhatsappLabel: "WhatsApp",
         btnSendMessage: "Send Message",
-        footerCopyright: "© 2026 Mennatallah Soliman. All rights reserved.",
-        footerShyTitle: "DON'T BE SHY!",
-        footerShyText: "Feel free to get in touch to discuss AI quality evaluation, prompt design, response analysis, or opportunities to collaborate.",
+        footerCopyright: "© 2026 Alaa Mohamed. All rights reserved.",
         footerWhoTitle: "WHO AM I?",
         footerWhoText: "I am an AI Quality Analyst specializing in prompt design, AI response evaluation, personalization quality, and clear evidence-based feedback.",
         typingRoles: ["Developer", "Engineer", "Enthusiast"],
@@ -267,9 +265,7 @@ const translations = {
         contactLocation: "الفيوم، مصر",
         contactWhatsappLabel: "واتساب",
         btnSendMessage: "إرسال الرسالة",
-        footerCopyright: "© 2026 منة الله سليمان. جميع الحقوق محفوظة.",
-        footerShyTitle: "لا تكن خجولاً!",
-        footerShyText: "لا تتردد في التواصل معي لمناقشة تقييم جودة الذكاء الاصطناعي وتصميم الـ Prompts وتحليل الردود أو فرص التعاون.",
+        footerCopyright: "© 2026 علاء محمد. جميع الحقوق محفوظة.",
         footerWhoTitle: "من أنا؟",
         footerWhoText: "أنا محللة جودة ذكاء اصطناعي متخصصة في تصميم الـ Prompts وتقييم الردود وجودة التخصيص وكتابة ملاحظات واضحة ومدعومة بالأدلة.",
         typingRoles: ["مطورة", "مهندسة", "شغوفة"],
@@ -423,7 +419,7 @@ if (contactForm) {
         const subjectInput = document.createElement('input');
         subjectInput.type = 'hidden';
         subjectInput.name = '_subject';
-        subjectInput.value = 'New message from Menna\'s Portfolio!';
+        subjectInput.value = 'New message from Alaa Mohamed\'s Portfolio!';
         contactForm.appendChild(subjectInput);
     }
     
