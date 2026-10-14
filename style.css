@@ -1374,6 +1374,37 @@ section {
     color: var(--text-secondary);
 }
 
+.service-features {
+    list-style: none;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.service-features li {
+    position: relative;
+    margin-top: 0.65rem;
+    padding-left: 1rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.service-features li::before {
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    content: "—";
+}
+
+[dir="rtl"] .service-features li {
+    padding-right: 1rem;
+    padding-left: 0;
+}
+
+[dir="rtl"] .service-features li::before {
+    right: 0;
+    left: auto;
+}
+
 /* Projects Section */
 .projects {
     background-color: #181a1d;
